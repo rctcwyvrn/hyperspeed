@@ -31,7 +31,7 @@ restrictions for speed
 			- string -> assumed to be less than 1kb
 			- big_string -> assumed to be less than 1mb
 	- no heap means no memory management, we get free regions by way of stack allocation
-	- leave a canary on the stack to dealloc the 
+	- leave a canary on the stack to dealloc the things prompted to the heap
 - there are no mutable references, there is basic in-function mutation
 	- all data must be passed by full ownership or by immutable ref
 - you cant return references -> if you store the reference you cant return it anymore?????????
