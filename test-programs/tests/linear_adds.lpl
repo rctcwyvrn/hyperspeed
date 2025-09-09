@@ -1,0 +1,1 @@
+[{"label":"singleton","instrs":[{"Add":{"lhr":{"Const":1},"rhr":{"Const":1},"rr":"R1"}}]},{"label":"singleton","instrs":[{"Add":{"lhr":{"Const":2},"rhr":{"Const":2},"rr":"R2"}}]},{"label":"singleton","instrs":[{"Add":{"lhr":{"Reg":"R1"},"rhr":{"Reg":"R2"},"rr":"R3"}}]}]
